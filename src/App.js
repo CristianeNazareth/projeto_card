@@ -1,19 +1,18 @@
 
 import React from "react";
 import Body from "./components/Body/Body";
-// import Main from "./components/Main/Main";
-// import Form from "./components/Form/Form"
-// import Nav from ""
+import Main from "./components/Main/Main";
+import Form from "./components/Form/Form"
 
 const App = () => {
   return (
     
     <React.Fragment>
       <Body>
-        {/* <Main>
+        <Main>
           <Form>
           </Form>
-        </Main> */}
+        </Main>
       </Body>
 
       <h3>ola, mundo</h3>
