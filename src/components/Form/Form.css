@@ -1,0 +1,45 @@
+:root {
+    --field-width: 70%;
+    --field-height: 2.2rem;
+    --boder-color: 1px solid #0000002c;
+    --radius-border: 0.3rem;
+}
+
+
+
+.main_input {
+    border: 1px solid blue;
+    margin-top: 20px;
+}
+
+.letter {
+
+    font-size: 11px;
+    font-weight: 600px;
+}
+.name {
+    border: 1px solid rgb(81, 255, 0);
+    font-size: 11px;
+    /* font-weight: 900px; */
+}
+
+.input_name {
+    height: var(--field-height);
+    width: var(--field-width);
+    border: var(--boder-color);
+    border-radius: var(--radius-border)
+}
+
+
+.btn_confirm {
+    background-color: #060209;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    width: 100%;
+    height: var(--field-height);
+    border-radius: var(--radius-border);
+}
+.main_input {
+    margin-bottom: 1.4rem;
+}

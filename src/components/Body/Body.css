@@ -1,0 +1,19 @@
+
+
+
+.body_container {
+    /* background-image: url('../../assets/images/bg-main-desktop.png'); */
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid red;
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.container_left {
+    background-image: url('../../assets/images/bg-main-desktop.png');
+}
+
