@@ -1,0 +1,13 @@
+
+.container_card_back {
+    background-image: url('../../assets/images/bg-card-back.png');
+
+    position: absolute;
+    top: 77%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: 450px;
+    height: 300px;
+    background-repeat: no-repeat;
+}

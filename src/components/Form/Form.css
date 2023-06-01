@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@600&family=Outfit:wght@400;700&family=Passion+One:wght@400;700;900&family=Roboto+Mono:wght@400;600&family=Roboto:wght@400;700&family=Sriracha&display=swap');
+
+
 :root {
     --field-width: 70%;
     --field-height: 2.2rem;
@@ -5,15 +9,13 @@
     --radius-border: 0.3rem;
 }
 
-
-
 .main_input {
     /* border: 1px solid blue; */
     margin-top: 20px;
 }
 
 .letter {
-
+    font-family: 'Roboto Mono', monospace;
     font-size: 11px;
     font-weight: 600px;
 }

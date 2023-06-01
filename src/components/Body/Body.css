@@ -7,9 +7,12 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     border: 1px solid red;
-    height: 600px;
+    height: auto;
+    min-height: 720px;
     width: 100%;
     margin: auto;
+
+    position: relative;
     
 }
 
