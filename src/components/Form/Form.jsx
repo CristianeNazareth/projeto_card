@@ -30,27 +30,27 @@ const Form = () => {
 
         <div className="main_input">
             <p className="name letter">CARDHOLDER NAME</p>
-            <input className="input_name" type="text" value={name} onchange={(e) => setName(e.target.value)} placeholder="e.g.Jane Appleseed" />
+            <input className="input_name" type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="e.g.Jane Appleseed" />
         </div>
 
         <div className="main_input">
             <p className="number letter">CARD NUMBER</p>
-            <input className="input_number" type="number" value={number} onchange={(e) => setNumber(e.target.value)} placeholder="e.g. 1234 5678 9123 0000" />
+            <input className="input_number" type="number" value={number} onChange={(e) => setNumber(e.target.value)} placeholder="e.g. 1234 5678 9123 0000" />
         </div>
 
         <div className="main_input">
             <p className="dateM letter">EXP. DATE (MM/YY)</p>
 
-            <input className="input_dateM" type="number" value={dateM} onchange={(e) => setDateM(e.target.value)} placeholder="MM" />
+            <input className="input_dateM" type="number" value={dateM} onChange={(e) => setDateM(e.target.value)} placeholder="MM" />
 
-            <input className="input_dateY" type="number" value={dateY} onchange={(e) => setDateY(e.target.value)} placeholder="YY" />
+            <input className="input_dateY" type="number" value={dateY} onChange={(e) => setDateY(e.target.value)} placeholder="YY" />
 
         </div>
 
 
         <div className="main_input">
             <p className="cvc letter">CVC</p>
-            <input className="input_cvc" type="number" value={cvc} onchange={(e) => setCvc(e.target.value)} placeholder="e.g. 123" />
+            <input className="input_cvc" type="number" value={cvc} onChange={(e) => setCvc(e.target.value)} placeholder="e.g. 123" />
         </div>
 
 

@@ -11,7 +11,7 @@ const App = () => {
       
       <Body></Body>
 
-      <h3>ola, mundo</h3>
+      {/* <h3>ola, mundo</h3> */}
     </React.Fragment>
 
   )

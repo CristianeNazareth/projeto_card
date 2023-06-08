@@ -12,7 +12,7 @@ root.render(
     
     <App></App>
     
-    <h2>cristiane</h2>
+    {/* <h2>cristiane</h2> */}
 
   </React.Fragment>
 
