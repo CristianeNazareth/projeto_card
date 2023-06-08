@@ -8,7 +8,7 @@ const CardBack = () => {
 
         <div className="container_card_back" >
             {/* <img src="../../assets/images/card-logo.svg" alt="" /> */}
-            <div className="cvc_card"></div>
+            <div className="cvc_card">000</div>
         </div>
 
     )
