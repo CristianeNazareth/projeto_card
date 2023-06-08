@@ -2,26 +2,25 @@ import React from "react";
 import './CardFront.css';
 
 
+const CardFront = ({cardNumber, cardHolderName, cardDateM, cardDateY}
+) => {
 
-const CardFront = () => {
     return (
 
         <div className="container_card_front" >
-            {/* <img src="../../assets/images/card-logo.svg" alt="" /> */}
+
             <div className="card_band"></div>
             <div className="band"></div>
-            <div className="number_card">1234 5678 9123 0000</div>
+            <div id="card-number" className="number_card">{cardNumber}</div>
 
-            <p className="name_card">Nome do Titular</p>
-            <div className="date_card">MM/YY</div>
+            <p id="card-holder-name" className="name_card">{cardHolderName}</p>
+            <div id="card-date" className="date_card">{cardDateM}/{cardDateY}</div>
+
         </div>
-        
 
     )
+
 }
-
-
-
 
 export default CardFront;
 

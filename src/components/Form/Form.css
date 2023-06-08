@@ -41,6 +41,7 @@
     width: 100%;
     height: var(--field-height);
     border-radius: var(--radius-border);
+    cursor: pointer;
 }
 .main_input {
     margin-bottom: 1.4rem;
