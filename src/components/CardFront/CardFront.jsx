@@ -2,7 +2,6 @@ import React from "react";
 import './CardFront.css';
 import PropTypes from 'prop-types';
 
-
 const CardFront = ({ cardNumber, cardHolderName, cardDateM, cardDateY }) => {
     return (
     <div className="container_card_front">
@@ -18,15 +17,15 @@ const CardFront = ({ cardNumber, cardHolderName, cardDateM, cardDateY }) => {
         {cardDateM}/{cardDateY}
     </div>
     </div>
-);
-};
+  )
+}
 
 CardFront.propTypes = {
 cardNumber: PropTypes.string.isRequired,
 cardHolderName: PropTypes.string.isRequired,
 cardDateM: PropTypes.string.isRequired,
 cardDateY: PropTypes.string.isRequired,
-};
+}
 
 export default CardFront;
 
